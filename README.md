@@ -5,10 +5,8 @@ Repositorio **privado**: los planos muestran la ubicación de cajas, oficinas y 
 ## Estructura
 
 ```
-sedes/
-  <sede>/
-    base.json    layout original (Excel de "04 Planos y senalizacion") con el plano de evacuación 2026; incluye los íconos
-    plano.json   versión vigente del plano; la crea y la actualiza el editor al guardar
+<sede>.json          layout original (Excel de "04 Planos y senalizacion") con el plano de evacuación 2026; incluye los íconos
+sedes/<sede>/plano.json   versión vigente del plano; la crea y la actualiza el editor al guardar
 ```
 
 Sedes: `novena`, `palatino`, `sanrafael`, `salitre`, `unicentro`, `ensueno`, `soacha`, `mercurio`, `cosmocentro`, `crowncali`, `bocagrande`, `sanpedro`.
@@ -17,7 +15,7 @@ Sedes: `novena`, `palatino`, `sanrafael`, `salitre`, `unicentro`, `ensueno`, `so
 
 Cada **Guardar versión** del editor es un commit sobre `sedes/<sede>/plano.json` con el mensaje `<Sede> · v<N>: <motivo>`. El historial de la sede es el historial de commits de ese archivo, y desde el editor (botón **Historial**) se puede restaurar cualquier versión.
 
-No edites `base.json`: es la referencia original. Si se borra `plano.json`, el editor vuelve a abrir el layout original.
+No edites los archivos `<sede>.json`: son la referencia original. Si se borra `plano.json`, el editor vuelve a abrir el layout original.
 
 ## Acceso
 

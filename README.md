@@ -9,7 +9,7 @@ Repositorio **privado**: los planos muestran la ubicación de cajas, oficinas y 
 sedes/<sede>/plano.json   versión vigente del plano; la crea y la actualiza el editor al guardar
 ```
 
-Sedes: `novena`, `palatino`, `sanrafael`, `salitre`, `unicentro`, `ensueno`, `soacha`, `mercurio`, `cosmocentro`, `crowncali`, `bocagrande`, `sanpedro`.
+Sedes: `novena`, `palatino`, `sanrafael`, `salitre`, `unicentro`, `ensueno`, `imperial`, `soacha`, `mercurio`, `cosmocentro`, `crowncali`, `vizcaya`, `multicentro`, `shirakaba`, `bocagrande`, `sanpedro`.
 
 ## Historial
 
